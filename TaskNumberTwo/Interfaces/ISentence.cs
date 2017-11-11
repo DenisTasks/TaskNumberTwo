@@ -8,5 +8,11 @@ namespace TaskNumberTwo.Interfaces
     public interface ISentence
     {
         void Add(ISentenceItem item);
+        int WordsInSentence();
+        bool FindQuestionSentence();
+        ICollection<ISentenceItem> GetCurrentWords(int x);
+        int GetLenghtWord(ISentenceItem item);
+        void DeleteWords(int x);
+        void ReplaceThisWords(int x, string s);
     }
 }
