@@ -1,0 +1,22 @@
+C:\Documents and Settings\Admin\Рабочий стол\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.exe
+C:\Documents and Settings\Admin\Рабочий стол\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.pdb
+C:\Documents and Settings\Admin\Рабочий стол\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Рабочий стол\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.exe
+C:\Documents and Settings\Admin\Рабочий стол\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.pdb
+C:\Users\Square\Desktop\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.exe
+C:\Users\Square\Desktop\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.pdb
+C:\Users\Square\Desktop\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.exe
+C:\Users\Square\Desktop\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.pdb
+C:\Users\Square\Desktop\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.csprojResolveAssemblyReference.cache
+C:\Users\Square\Desktop\!пушить\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.exe
+C:\Users\Square\Desktop\!пушить\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.pdb
+C:\Users\Square\Desktop\!пушить\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.exe
+C:\Users\Square\Desktop\!пушить\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.pdb
+C:\Users\Square\Desktop\!пушить\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.csprojResolveAssemblyReference.cache
+D:\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.exe
+D:\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.pdb
+D:\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.exe
+D:\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.pdb
+D:\TaskNumberTwo\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.csprojResolveAssemblyReference.cache
+D:\бекап\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.exe
+D:\бекап\TaskNumberTwo\obj\x86\Debug\TaskNumberTwo.pdb
