@@ -17,5 +17,9 @@ namespace TaskNumberTwo.Model
         {
             _objectSentences.Add(item);
         }
+        public override string ToString()
+        {
+            return string.Join(" ", _objectSentences);
+        }
     }
 }

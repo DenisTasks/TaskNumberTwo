@@ -18,5 +18,19 @@ namespace TaskNumberTwo.Model
         {
             _sentenceItems.Add(item);
         }
+        public override string ToString()
+        {
+            StringBuilder builder = new StringBuilder();
+            foreach (var item in _sentenceItems)
+            {
+                if (item.TypeOfItem == TypeOfItem.Word)
+                {
+                    builder.Append(" ");
+                }
+                builder.Append(item.WordOrPunctuationValue);
+            }
+            builder.Remove(0, 1);
+            return builder.ToString();
+        }
     }
 }
