@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using TaskNumberTwo.Interfaces;
 using System.Text.RegularExpressions;
+using TaskNumberTwo.WordInformer;
 
 namespace TaskNumberTwo.Model
 {
     public class Sentence: ISentence
     {
         private readonly List<ISentenceItem> _sentenceItems;
+        private readonly IGetInfo _informer;
         public Sentence()
         {
             _sentenceItems = new List<ISentenceItem>();
+            _informer = new InformerLenght();
         }
         public void Add(ISentenceItem item)
         {
@@ -61,17 +64,13 @@ namespace TaskNumberTwo.Model
             foreach (var item in _sentenceItems)
             {
                 if (item.TypeOfItem == TypeOfItem.Word
-                    && GetLenghtWord(item) == x
+                    && _informer.GetInfoAboutWord(item) == x
                     && !questionList.Any(w => w.WordOrPunctuationValue.ToLower() == item.WordOrPunctuationValue.ToLower()))
                 {
                     questionList.Add(item);
                 }
             }
             return questionList;
-        }
-        public int GetLenghtWord(ISentenceItem item)
-        {
-            return item.WordOrPunctuationValue.Length;
         }
         public void DeleteWords(int x)
         {
@@ -81,7 +80,7 @@ namespace TaskNumberTwo.Model
                 if (Regex.IsMatch(
                         _sentenceItems.ElementAt(i).WordOrPunctuationValue, patternConsonantLetter, RegexOptions.IgnoreCase)
                     && _sentenceItems.ElementAt(i).TypeOfItem == TypeOfItem.Word
-                    && _sentenceItems.ElementAt(i).WordOrPunctuationValue.Length == x)
+                    && _informer.GetInfoAboutWord(_sentenceItems.ElementAt(i)) == x)
                 {
                     _sentenceItems.Remove(_sentenceItems.ElementAt(i));
                     //_sentenceItems.Insert(i, new SentenceItem("{DELETED WORD HERE!}", TypeOfItem.Word));
@@ -94,7 +93,7 @@ namespace TaskNumberTwo.Model
             foreach (var item in _sentenceItems)
             {
                 if (item.TypeOfItem == TypeOfItem.Word
-                    && GetLenghtWord(item) == searchLenght)
+                    && _informer.GetInfoAboutWord(item) == searchLenght)
                 {
                     item.WordOrPunctuationValue = newWord;
                 }
