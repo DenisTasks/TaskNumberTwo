@@ -1,0 +1,5 @@
+D:\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.exe
+D:\TaskNumberTwo\TaskNumberTwo\bin\Debug\TaskNumberTwo.pdb
+D:\TaskNumberTwo\TaskNumberTwo\obj\Debug\TaskNumberTwo.exe
+D:\TaskNumberTwo\TaskNumberTwo\obj\Debug\TaskNumberTwo.pdb
+D:\TaskNumberTwo\TaskNumberTwo\obj\Debug\TaskNumberTwo.csprojResolveAssemblyReference.cache
