@@ -5,9 +5,11 @@ using System.Text;
 using TaskNumberTwo.Interfaces;
 using System.Text.RegularExpressions;
 using TaskNumberTwo.WordInformer;
+using System.Runtime.Serialization;
 
 namespace TaskNumberTwo.Model
 {
+    [Serializable]
     public class Sentence: ISentence
     {
         private readonly List<ISentenceItem> _sentenceItems;

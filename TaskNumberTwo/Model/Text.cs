@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using TaskNumberTwo.Interfaces;
+using TaskNumberTwo.WordInformer;
 
 namespace TaskNumberTwo.Model
 {
+    [DataContract, Serializable, KnownType(typeof(Sentence)), KnownType(typeof(InformerLenght)), KnownType(typeof(SentenceItem))]
     public class Text
     {
+        [DataMember]
         private readonly ICollection<ISentence> _objectSentences;
         public Text()
         {

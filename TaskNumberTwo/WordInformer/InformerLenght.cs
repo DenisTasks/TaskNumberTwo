@@ -7,6 +7,7 @@ using TaskNumberTwo.Interfaces;
 
 namespace TaskNumberTwo.WordInformer
 {
+    [Serializable]
     public class InformerLenght : IGetInfo
     {
         public int GetInfoAboutWord(ISentenceItem item)

@@ -1,0 +1,8 @@
+D:\TaskNumberTwo\Serialization\bin\Debug\Serialization.exe.config
+D:\TaskNumberTwo\Serialization\bin\Debug\Serialization.exe
+D:\TaskNumberTwo\Serialization\bin\Debug\Serialization.pdb
+D:\TaskNumberTwo\Serialization\bin\Debug\TaskNumberTwo.exe
+D:\TaskNumberTwo\Serialization\bin\Debug\TaskNumberTwo.pdb
+D:\TaskNumberTwo\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache
+D:\TaskNumberTwo\Serialization\obj\Debug\Serialization.exe
+D:\TaskNumberTwo\Serialization\obj\Debug\Serialization.pdb
